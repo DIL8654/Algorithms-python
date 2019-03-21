@@ -36,3 +36,16 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division? see the methods calculateNewArray4 and calculateNewArray5
 
 ---
+## ConstructPairAndReturnFirstAndLast.py
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+         
+         def cons(a, b):
+               def pair(f):
+                  return f(a, b)
+               return pair
+    
+         
+Implement car and cdr.
